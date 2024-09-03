@@ -1,0 +1,28 @@
+# math_functions.py
+
+import math
+
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
+
+def divide(numerator, denominator):
+    if denominator == 0:
+        return 
+    return numerator / denominator
+
+def square(x):
+    return x * x
+
+def power(base, exponent):
+    return base ** exponent
+
+def sqrt(x):
+    if x < 0:
+        return  
+    return math.sqrt(x)
